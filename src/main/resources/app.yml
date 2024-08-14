@@ -6,3 +6,5 @@ solon.app:
   threads:
     virtual:
       enabled: true
+
+solon.extend: "!db_ext"
