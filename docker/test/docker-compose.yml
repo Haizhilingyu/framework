@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "4000:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: framework
+  postgres:
+    image: postgres:13.2
+    ports:
+      - "4001:5432"
+    environment:
+      POSTGRES_PASSWORD: 123456

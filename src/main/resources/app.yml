@@ -1,0 +1,8 @@
+server.port: 8080
+
+solon.app:
+  name: 'demo-app'
+  group: 'demo'
+  threads:
+    virtual:
+      enabled: true
