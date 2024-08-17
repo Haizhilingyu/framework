@@ -27,7 +27,7 @@
     <div style="color: red;">${i18n.get(errorMsg)}</div>
 </#if>
 <form action="/plugin/file/upload/${pluginId}" method="post" enctype="multipart/form-data">
-    <input type="file" name="files" multiple/>
+    <input type="file" name="files" multiple webkitdirectory/>
     <button type="submit">${i18n.get("plugin.upload_file")}</button>
 </form>
 <table>
