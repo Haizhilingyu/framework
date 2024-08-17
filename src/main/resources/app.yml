@@ -1,4 +1,9 @@
 server.port: 8080
+server:
+  request:
+    useTempfile: true
+    maxBodySize: 2mb
+    maxFileSize: 500mb
 
 solon.app:
   name: 'demo-app'

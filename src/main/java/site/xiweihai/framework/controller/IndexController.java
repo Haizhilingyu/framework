@@ -72,7 +72,6 @@ public class IndexController {
         // 向模型中添加语言环境信息
         model.put("lang", locale.getLanguage());
         // 向模型中添加标题信息
-        model.put("title", "dock");
         model.put("driver", driver!=null?driver:"org.sqlite.JDBC");
         model.put("url", url!=null?url:"jdbc:sqlite:db.db");
         model.put("username", username!=null?username:"");
